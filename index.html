@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game Project</title>
+
+    <link rel="icon" href="./src/imagens/favicon.png" type="image/icon" />
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img class="logo" src="./src/imagens/titulo.png" alt="Logo League of Legends">
+    </header>
+
+    <main class="selecao-de-personagens">
+      <section class="personagens">
+        <h1 class="titulo">Selecione um personagem</h1>
+        <ul class="lista-de-personagens">
+          <li class="personagem selecionado" id="yasuo" data-name="Yasuo" data-description="Yasuo é um ágil espadachim com habilidades de vento, capaz de eliminar adversários com sua lâmina e agilidade.">
+            <img
+              src="./src/imagens/cards/card-yasuo.jpg"
+              alt="Personagem Yasuo"
+            />
+          </li>
+          <li class="personagem" id="zed" data-name="Zed" data-description="Assassino sombrio e veloz, manipula sombras e projeta shurikens letais para eliminar seus oponentes.">
+            <img
+              src="./src/imagens/cards/card-zed.jpg"
+              alt="Personagem Zed"
+            />
+          </li>
+
+          <li class="personagem" id="ahri" data-name="Ahri" data-description="Encantadora raposa mágica que usa sua graça e encanto para seduzir e eliminar os inimigos com sua magia.">
+            <img
+              src="./src/imagens/cards/card-ahri.jpg"
+              alt="Personagem Ahri"
+            />
+          </li>
+
+          <li class="personagem" id="jinx" data-name="Jinx" data-description="Uma atiradora caótica, espalha caos com suas armas excêntricas e destrói tudo em seu caminho.">
+            <img
+              src="./src/imagens/cards/card-jinx.jpg"
+              alt="Personagem Jinx"
+            />
+          </li>
+
+          <li class="personagem" id="katarina" data-name="Katarina" data-description="Assassina ágil e sanguinária, salta entre inimigos, desferindo golpes rápidos e letais com suas adagas.">
+            <img
+              src="./src/imagens/cards/card-katarina.jpg"
+              alt="Personagem Katarina"
+            />
+          </li>
+
+          <li class="personagem" id="caitlyn" data-name="Caitlyn" data-description="Atiradora de elite, habilidosa com seu rifle de longo alcance, consegue eliminar inimigos antes que percebam.">
+            <img
+              src="./src/imagens/cards/card-caitlyn.jpg"
+              alt="Personagem Caitlyn"
+            />
+          </li>
+
+          <li class="personagem" id="teemo" data-name="Teemo" data-description="Yordle astuto e esquivo, especialista em armadilhas e atirador de dardos venenosos.">
+            <img
+              src="./src/imagens/cards/card-teemo.jpg"
+              alt="Personagem Teemo"
+            />
+          </li>
+
+          <li class="personagem" id="akali" data-name="Akali" data-description="Assassina sombria, mestra das sombras, usa suas habilidades para surpreender e eliminar seus alvos com rapidez.">
+            <img
+              src="./src/imagens/cards/card-akali.jpg"
+              alt="Personagem Akali"
+            />
+          </li>
+        </ul>
+      </section>
+      <section class="personagem-selecionado">
+        <img
+          class="personagem-grande"
+          src="./src/imagens/personagens-grandes/card-yasuo.png"
+          alt="Personagem Selecionado"
+        />
+
+        <div class="informacoes-personagem">
+          <h2 class="nome-personagem" id="nome-personagem">Yasuo</h2>
+          <p class="descricao-personagem" id="descricao-personagem">
+            Yasuo é um ágil espadachim com habilidades de vento, 
+            capaz de eliminar adversários com sua lâmina e agilidade.
+          </p>
+        </div>
+      </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
