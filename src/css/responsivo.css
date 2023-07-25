@@ -1,39 +1,52 @@
-@media (max-width: 1120px){
-    .cabecalho .logo{
-        max-width: 190px;
-    }
+@media (max-width: 1200px) {
+	body {
+		background-color: #000000;
+	}
 
-    .selecao-de-personagens{
-        flex-direction: column-reverse;
-        max-width: 430px;
-        margin: 0 auto;
-    }
+	.fundo-video {
+		display: none;
+	}
 
-    .selecao-de-personagens .personagens{
-        margin-top: 37px;
-    }
+	.container {
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 30px;
+		height: auto;
+	}
 
-    .selecao-de-personagens .personagens .titulo{
-        font-size: 15px;
-    }
+	.container .yasuo {
+		max-width: 50%;
+	}
 
-    .selecao-de-personagens .lista-de-personagens{
-        gap: 9px
-    }
+	.container .informacoes {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
 
-    .selecao-de-personagens .personagem img{
-        width: 80px;
-    }
+	.container .imagem-titulo {
+		max-width: 75%;
+	}
 
-    .personagem-selecionado .personagem-grande{
-        width: 350px;
-        height: 350px;
-    }
+	.container .descricao {
+		color: #ffffff;
+		text-align: center;
+	}
 
-    .personagem-selecionado .descricao-personagem{
-        width: 80%;
-        font-size: 16px;
-        margin: 20px auto;
-    }
+	.container .botao {
+		background-color: #263238;
+	}
+}
+
+@media (max-width: 500px) {
+	.cabecalho {
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 10px;
+	}
+
+	.container .imagem-titulo {
+		max-width: 75%;
+	}
 
 }
