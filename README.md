@@ -12,9 +12,8 @@ This project is a simple champion selector web application inspired by the @deve
 </a>
 
 # How to Use 🚀 
-1. Clone the repository to your local machine.
-2. Open the index.html file in your web browser.
-3. Click on the champion icons to select your champion.
+1. Open the [Simple Champion Selector](https://luizmorato.github.io/lol-select-champion/) website in your browser.
+2. Click on the availables champions icons to select your champion.
 
 # Credits 💡
 Project inspired by @devemdobro.
