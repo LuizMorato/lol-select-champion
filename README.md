@@ -12,7 +12,7 @@ This project is a simple champion selector web application inspired by the @deve
 </a>
 
 # How to Use 🚀 
-1. Open the [Simple Champion Selector](https://luizmorato.github.io/lol-select-champion/) website in your browser.
+1. Open the [Simple Champion Selector](https://lol-select-champion.vercel.app/) website in your browser.
 2. Click on the availables champions icons to select your champion.
 
 # Credits 💡
